@@ -1,0 +1,24 @@
+{
+  "name": "@kaischubertnebumind/three-orbit-control-gizmo",
+  "version": "1.0.0",
+  "description": "three.js camera control gizmo originally from https://github.com/Fennec-hub/ThreeOrbitControlsGizmo",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaischubertnebumind/ThreeOrbitControlsGizmo.git"
+  },
+  "keywords": [
+    "three.js",
+    "camera",
+    "gizmo"
+  ],
+  "author": "kai.alexander.schubert@nebumind.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaischubertnebumind/ThreeOrbitControlsGizmo/issues"
+  },
+  "homepage": "https://github.com/kaischubertnebumind/ThreeOrbitControlsGizmo#readme"
+}
