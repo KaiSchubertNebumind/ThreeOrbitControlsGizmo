@@ -1,6 +1,6 @@
 {
   "name": "@kaischubertnebumind/three-orbit-control-gizmo",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "three.js camera control gizmo originally from https://github.com/Fennec-hub/ThreeOrbitControlsGizmo, modified to take an external canvas element",
   "main": "index.js",
   "scripts": {
