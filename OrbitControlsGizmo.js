@@ -2,10 +2,10 @@ import {
   Vector2,
   Vector3,
   Matrix4
-} from "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js";
+} from "three";
 
 class OrbitControlsGizmo {
-	constructor(orbitControls, options) {
+	constructor(orbitControls, canvas, options) {
 
 		options = Object.assign({
 			size: 90,
@@ -100,8 +100,7 @@ class OrbitControlsGizmo {
       ];
     }
     
-    function createCanvas () {
-      const canvas = document.createElement('canvas');
+    function modifyCanvas (canvas) {
       canvas.width = options.size;
       canvas.height = options.size;
       canvas.classList.add(options.className);
@@ -277,7 +276,7 @@ class OrbitControlsGizmo {
     }
 
     // Initialization
-    this.domElement = createCanvas();
+    this.domElement = modifyCanvas(canvas);
     this.update();
   }
 	

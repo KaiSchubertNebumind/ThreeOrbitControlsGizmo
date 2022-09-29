@@ -1,7 +1,7 @@
 {
   "name": "@kaischubertnebumind/three-orbit-control-gizmo",
-  "version": "1.0.0",
-  "description": "three.js camera control gizmo originally from https://github.com/Fennec-hub/ThreeOrbitControlsGizmo",
+  "version": "2.0.0",
+  "description": "three.js camera control gizmo originally from https://github.com/Fennec-hub/ThreeOrbitControlsGizmo, modified to take an external canvas element",
   "main": "index.js",
   "scripts": {
     "test": "exit 0"
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kaischubertnebumind/ThreeOrbitControlsGizmo/issues"
   },
-  "homepage": "https://github.com/kaischubertnebumind/ThreeOrbitControlsGizmo#readme"
+  "homepage": "https://github.com/kaischubertnebumind/ThreeOrbitControlsGizmo#readme",
+  "publishConfig": {
+    "@kaischubertnebumind:registry": "https://npm.pkg.github.com"
+  }
 }
